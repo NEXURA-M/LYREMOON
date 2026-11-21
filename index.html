@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#fbfcff">
+
+  <link rel="canonical" href="https://taqi.ddns.net/lyramoon/">
+  <link rel="alternate" hreflang="en" href="https://taqi.ddns.net/lyramoon/">
+  <link rel="alternate" hreflang="x-default" href="https://taqi.ddns.net/lyramoon/">
+
+  <title>LYRAMOON STUDIO — AI, Websites &amp; Games by Muhammad Taqi</title>
+  <meta name="description" content="LYRAMOON STUDIO is the independent creation studio founded by Muhammad Taqi — parent studio of AVELIA. Create AI, build websites, compare software, and play 3D &amp; Stickman games.">
+  <meta name="keywords" content="LYRAMOON STUDIO, LYRAMOON, Muhammad Taqi, taqi.ddns.net, AVELIA, Create AI, Web Builder, Game Builder, Software Compare">
+  <meta name="author" content="Muhammad Taqi">
+  <meta name="owner" content="Muhammad Taqi">
+
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <meta property="og:site_name" content="LYRAMOON STUDIO">
+  <meta property="og:title" content="LYRAMOON STUDIO — AI, Websites &amp; Games by Muhammad Taqi">
+  <meta property="og:description" content="Independent creation studio by Muhammad Taqi. Parent of AVELIA — create AI, build websites, and play 3D &amp; Stickman games.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://taqi.ddns.net/lyramoon/">
+  <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZ5mRlP5Cv_bDLc_uIgiwYZpU4PNnyW2lJxIoceHXEw&amp;s=10">
+  <meta property="og:image:alt" content="LYRAMOON STUDIO logo — AI, web and game studio by Muhammad Taqi">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LYRAMOON STUDIO — AI, Websites &amp; Games">
+  <meta name="twitter:description" content="Independent creation studio by Muhammad Taqi. Create AI, build websites, play 3D &amp; Stickman games.">
+  <meta name="twitter:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZ5mRlP5Cv_bDLc_uIgiwYZpU4PNnyW2lJxIoceHXEw&amp;s=10">
+
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZ5mRlP5Cv_bDLc_uIgiwYZpU4PNnyW2lJxIoceHXEw&amp;s=10">
+  <link rel="apple-touch-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZ5mRlP5Cv_bDLc_uIgiwYZpU4PNnyW2lJxIoceHXEw&amp;s=10">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "LYRAMOON STUDIO",
+    "alternateName": "LYRAMOON",
+    "url": "https://taqi.ddns.net/lyramoon/",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZ5mRlP5Cv_bDLc_uIgiwYZpU4PNnyW2lJxIoceHXEw&s=10",
+    "founder": {
+      "@type": "Person",
+      "name": "Muhammad Taqi",
+      "jobTitle": "Founder & Full Stack Developer"
+    },
+    "description": "LYRAMOON STUDIO is an independent creation studio founded by Muhammad Taqi — parent studio of AVELIA.",
+    "sameAs": [
+      "https://avelia.oneapp.dev/",
+      "https://taqi.oneapp.dev/",
+      "https://www.youtube.com/@LYRAMOON-STUDIO",
+      "https://www.youtube.com/@AVELIA.S",
+      "https://huggingface.co/MUSTJAB-KING"
+    ]
+  }
+  </script>
+
+<style>
+/* ============ RESET ============ */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none;transition:color .25s}
+button{font:inherit;border:0;background:none;cursor:pointer;color:inherit}
+
+:root{
+  --bg:#fbfcff;
+  --bg-alt:#f4f7ff;
+  --surface:#ffffff;
+  --text:#0a0f1e;
+  --text-2:#1e2438;
+  --muted:#5b6478;
+  --muted-2:#8b93a7;
+  --line:rgba(10,15,30,.07);
+  --line-2:rgba(10,15,30,.12);
+  --blue:#4f7cff;
+  --blue-2:#3b6aff;
+  --purple:#a78bfa;
+  --sky:#38bdf8;
+  --pink:#ec4899;
+  --peach:#ffb088;
+  --mint:#a7f3d0;
+
+  --grad-soft:linear-gradient(135deg, #38bdf8 0%, #a78bfa 50%, #ec4899 100%);
+  --grad-blue-purple:linear-gradient(135deg, #4f7cff 0%, #a78bfa 100%);
+
+  --shadow-sm: 0 2px 8px -2px rgba(10,15,30,.06), 0 4px 16px -8px rgba(10,15,30,.04);
+  --shadow-md: 0 4px 12px -4px rgba(10,15,30,.06), 0 20px 48px -20px rgba(79,124,255,.2);
+  --shadow-lg: 0 8px 24px -8px rgba(10,15,30,.08), 0 40px 80px -40px rgba(79,124,255,.3);
+
+  --radius-sm: 12px;
+  --radius: 20px;
+  --radius-lg: 28px;
+  --radius-xl: 36px;
+}
+
+::selection{background:rgba(79,124,255,.2);color:var(--text)}
+
+body{
+  font-family:'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+  position:relative;
+}
+
+/* ============ PAPER GRAIN ============ */
+body::before{
+  content:"";
+  position:fixed;inset:0;z-index:1;pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity:.028;
+  mix-blend-mode:multiply;
+}
+
+/* ============ FLOATING CLOUDS ============ */
+.clouds{
+  position:fixed;inset:0;
+  z-index:0;
+  pointer-events:none;
+  overflow:hidden;
+}
+.cloud{
+  position:absolute;
+  border-radius:50%;
+  filter:blur(90px);
+  will-change:transform;
+}
+.c1{
+  width:820px;height:820px;
+  top:-320px;left:-260px;
+  background:radial-gradient(circle at 40% 40%, #c7e2ff 0%, #e6f0ff 40%, transparent 70%);
+  opacity:.85;
+  animation:drift 32s ease-in-out infinite;
+}
+.c2{
+  width:760px;height:760px;
+  top:-200px;right:-260px;
+  background:radial-gradient(circle at 60% 40%, #e0d6ff 0%, #efe8ff 40%, transparent 70%);
+  opacity:.75;
+  animation:drift 38s ease-in-out infinite reverse;
+}
+.c3{
+  width:1000px;height:600px;
+  bottom:-260px;left:15%;
+  background:radial-gradient(circle at 50% 50%, #ffe0e6 0%, #fff0f3 40%, transparent 72%);
+  opacity:.6;
+  animation:drift 44s ease-in-out infinite;
+}
+.c4{
+  width:680px;height:680px;
+  top:35%;right:8%;
+  background:radial-gradient(circle at 50% 50%, #d7f5e8 0%, #eafaf3 40%, transparent 72%);
+  opacity:.55;
+  animation:drift 28s ease-in-out infinite reverse;
+}
+.c5{
+  width:520px;height:520px;
+  top:52%;left:6%;
+  background:radial-gradient(circle at 50% 50%, #fff0d9 0%, #fff7e8 40%, transparent 72%);
+  opacity:.5;
+  animation:drift 34s ease-in-out infinite;
+}
+
+@keyframes drift{
+  0%,100%{transform:translate(0,0) scale(1)}
+  50%{transform:translate(50px,40px) scale(1.12)}
+}
+
+/* ============ TYPOGRAPHY ============ */
+h1,h2,h3,h4{
+  font-family:'Plus Jakarta Sans', sans-serif;
+  line-height:1.08;
+  letter-spacing:-.035em;
+  font-weight:700;
+  color:var(--text);
+}
+.serif{
+  font-family:'Fraunces', serif;
+  font-style:italic;
+  font-weight:400;
+  letter-spacing:-.02em;
+  font-variation-settings:"SOFT" 50, "WONK" 1;
+}
+.grad-text{
+  background:var(--grad-soft);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  background-size:200% 200%;
+  animation:gradientShift 8s ease-in-out infinite;
+}
+@keyframes gradientShift{
+  0%,100%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+}
+
+/* ============ NAV ============ */
+.nav{
+  position:sticky;top:0;z-index:100;
+  backdrop-filter:blur(20px) saturate(180%);
+  -webkit-backdrop-filter:blur(20px) saturate(180%);
+  background:rgba(251,252,255,.72);
+  border-bottom:1px solid var(--line);
+}
+.nav-inner{
+  max-width:1240px;margin:0 auto;
+  padding:14px 24px;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+}
+.brand{
+  display:flex;align-items:center;gap:12px;
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-weight:700;
+  letter-spacing:-.02em;
+  font-size:.98rem;
+}
+
+/* Circle brand logo */
+.brand-logo{
+  width:42px;height:42px;
+  border-radius:50%;
+  overflow:hidden;
+  flex:none;
+  position:relative;
+  padding:2px;
+  background:var(--grad-soft);
+  box-shadow:0 4px 14px -4px rgba(79,124,255,.4);
+  transition:transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s;
+}
+.brand:hover .brand-logo{
+  transform:scale(1.06) rotate(-4deg);
+  box-shadow:0 6px 20px -4px rgba(79,124,255,.55);
+}
+.brand-logo::before{
+  content:"";
+  position:absolute;inset:2px;
+  border-radius:50%;
+  background:#fff;
+  z-index:0;
+}
+.brand-logo img{
+  position:relative;z-index:1;
+  width:100%;height:100%;
+  border-radius:50%;
+  object-fit:cover;
+  background:#fff;
+}
+
+.brand-text{display:flex;flex-direction:column;line-height:1.15}
+.brand-text b{font-size:.94rem;letter-spacing:-.01em;color:var(--text)}
+.brand-text small{
+  font-size:.6rem;font-weight:600;letter-spacing:.22em;
+  color:var(--muted);text-transform:uppercase;
+  margin-top:2px;
+}
+
+.nav-links{display:flex;align-items:center;gap:32px}
+.nav-links a{
+  font-size:.86rem;
+  color:var(--muted);
+  font-weight:500;
+  position:relative;
+  transition:color .25s;
+}
+.nav-links a::after{
+  content:"";
+  position:absolute;left:0;bottom:-6px;
+  width:0;height:1.5px;
+  background:var(--grad-blue-purple);
+  border-radius:2px;
+  transition:width .35s cubic-bezier(.2,.8,.2,1);
+}
+.nav-links a:hover{color:var(--text)}
+.nav-links a:hover::after{width:100%}
+
+.nav-cta{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:10px 20px;
+  border-radius:999px;
+  background:var(--grad-blue-purple);
+  color:#fff;
+  font-weight:600;
+  font-size:.86rem;
+  letter-spacing:.01em;
+  box-shadow:0 8px 24px -8px rgba(79,124,255,.6);
+  transition:transform .3s, box-shadow .3s;
+}
+.nav-cta:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 32px -10px rgba(79,124,255,.75);
+}
+.nav-cta svg{width:14px;height:14px}
+
+/* ============ LAYOUT ============ */
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px}
+section{position:relative;z-index:2}
+.pad{padding:clamp(72px,11vw,150px) 0}
+
+/* ============ EYEBROW ============ */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:.72rem;
+  font-weight:600;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  color:var(--blue);
+  margin-bottom:20px;
+}
+.eyebrow::before{
+  content:"";
+  width:7px;height:7px;border-radius:50%;
+  background:var(--grad-blue-purple);
+  box-shadow:0 0 0 3px rgba(79,124,255,.15);
+}
+
+/* ============ BUTTONS ============ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:15px 28px;
+  border-radius:999px;
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-weight:600;
+  font-size:.94rem;
+  letter-spacing:.005em;
+  border:1px solid transparent;
+  white-space:nowrap;
+  transition:transform .3s cubic-bezier(.2,.8,.2,1), box-shadow .3s, background .3s, border-color .3s;
+  cursor:pointer;
+}
+.btn svg{width:16px;height:16px}
+.btn-primary{
+  background:var(--grad-blue-purple);
+  color:#fff;
+  box-shadow:0 10px 30px -10px rgba(79,124,255,.7), 0 0 0 1px rgba(255,255,255,.15) inset;
+}
+.btn-primary:hover{
+  transform:translateY(-2px);
+  box-shadow:0 18px 40px -12px rgba(79,124,255,.85);
+}
+.btn-ghost{
+  background:rgba(255,255,255,.7);
+  color:var(--text);
+  border-color:var(--line-2);
+  backdrop-filter:blur(10px);
+}
+.btn-ghost:hover{
+  background:#fff;
+  border-color:var(--blue);
+  color:var(--blue);
+  transform:translateY(-2px);
+  box-shadow:var(--shadow-sm);
+}
+
+/* ============ HERO ============ */
+.hero{
+  padding:clamp(56px,9vw,100px) 0 clamp(60px,8vw,100px);
+  text-align:center;
+  position:relative;
+}
+
+/* Hero circular logo */
+.hero-logo-wrap{
+  display:flex;
+  justify-content:center;
+  margin-bottom:36px;
+  position:relative;
+}
+.hero-logo{
+  position:relative;
+  width:clamp(110px, 16vw, 148px);
+  height:clamp(110px, 16vw, 148px);
+  border-radius:50%;
+  padding:5px;
+  background:conic-gradient(from 0deg, #38bdf8, #a78bfa, #ec4899, #ffb088, #38bdf8);
+  box-shadow:
+    0 20px 50px -20px rgba(79,124,255,.6),
+    0 0 0 1px rgba(255,255,255,.5) inset;
+  animation:logoSpin 18s linear infinite;
+}
+@keyframes logoSpin{
+  to{transform:rotate(360deg)}
+}
+.hero-logo::before{
+  content:"";
+  position:absolute;inset:5px;
+  border-radius:50%;
+  background:#fff;
+  z-index:0;
+}
+.hero-logo img{
+  position:relative;z-index:1;
+  width:100%;height:100%;
+  border-radius:50%;
+  object-fit:cover;
+  background:#fff;
+  animation:logoCounterSpin 18s linear infinite;
+}
+@keyframes logoCounterSpin{
+  to{transform:rotate(-360deg)}
+}
+/* Soft glow behind logo */
+.hero-logo-wrap::before{
+  content:"";
+  position:absolute;
+  top:50%;left:50%;
+  width:clamp(180px,26vw,240px);
+  height:clamp(180px,26vw,240px);
+  transform:translate(-50%,-50%);
+  border-radius:50%;
+  background:radial-gradient(circle, rgba(167,139,250,.35), transparent 65%);
+  filter:blur(30px);
+  z-index:-1;
+  pointer-events:none;
+}
+
+.hero-badge{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:8px 18px 8px 14px;
+  border-radius:999px;
+  background:rgba(255,255,255,.7);
+  border:1px solid var(--line-2);
+  backdrop-filter:blur(10px);
+  font-size:.78rem;
+  font-weight:500;
+  color:var(--text-2);
+  letter-spacing:.01em;
+  margin-bottom:32px;
+  box-shadow:var(--shadow-sm);
+}
+.hero-badge .dot{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--grad-blue-purple);
+  position:relative;
+}
+.hero-badge .dot::after{
+  content:"";
+  position:absolute;inset:-4px;
+  border-radius:50%;
+  background:rgba(79,124,255,.35);
+  animation:pulse 2.4s ease-out infinite;
+}
+@keyframes pulse{
+  0%{transform:scale(.5);opacity:.8}
+  100%{transform:scale(2.2);opacity:0}
+}
+
+.hero h1{
+  font-size:clamp(2.8rem,8.5vw,7.2rem);
+  font-weight:800;
+  letter-spacing:-.055em;
+  line-height:0.94;
+  margin:0 auto 28px;
+  max-width:1000px;
+}
+.hero h1 .line{
+  display:block;
+}
+.hero h1 .serif{
+  font-weight:400;
+  font-size:1.05em;
+  display:inline-block;
+  padding-right:.04em;
+}
+
+.hero-sub{
+  font-size:clamp(1rem,1.6vw,1.18rem);
+  color:var(--muted);
+  max-width:640px;
+  margin:0 auto 40px;
+  line-height:1.7;
+  font-weight:400;
+}
+.hero-sub strong{
+  color:var(--text);
+  font-weight:600;
+}
+
+.hero-actions{
+  display:flex;flex-wrap:wrap;gap:12px;justify-content:center;
+  margin-bottom:44px;
+}
+
+.hero-meta{
+  display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:center;
+  font-size:.8rem;
+  color:var(--muted);
+  letter-spacing:.02em;
+}
+.hero-meta span{
+  display:inline-flex;align-items:center;gap:8px;
+}
+.hero-meta span::before{
+  content:"";
+  width:5px;height:5px;border-radius:50%;
+  background:var(--muted-2);
+}
+
+/* ============ MARQUEE ============ */
+.marquee{
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  background:rgba(255,255,255,.5);
+  backdrop-filter:blur(10px);
+  padding:22px 0;
+  overflow:hidden;
+  position:relative;z-index:2;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
+}
+.marquee-track{
+  display:flex;gap:60px;width:max-content;
+  animation:scroll 44s linear infinite;
+}
+.marquee-track span{
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-size:.78rem;
+  font-weight:600;
+  letter-spacing:.26em;
+  text-transform:uppercase;
+  color:var(--muted);
+  white-space:nowrap;
+  display:flex;align-items:center;gap:60px;
+}
+.marquee-track span::after{
+  content:"";
+  width:5px;height:5px;border-radius:50%;
+  background:var(--grad-blue-purple);
+}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* ============ SECTION HEAD ============ */
+.section-head{
+  max-width:680px;
+  margin-bottom:clamp(48px,7vw,80px);
+}
+.section-head h2{
+  font-size:clamp(2rem,4.6vw,3.6rem);
+  margin-bottom:18px;
+  letter-spacing:-.045em;
+  line-height:1.05;
+}
+.section-head p{
+  color:var(--muted);
+  font-size:1.05rem;
+  line-height:1.7;
+  max-width:560px;
+}
+
+/* ============ VIDEOS ============ */
+.videos-featured{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:24px;
+  margin-bottom:32px;
+}
+
+.video-meta{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:14px 20px;
+  margin-top:22px;
+  padding-left:4px;
+}
+.video-meta .num{
+  font-family:'Fraunces', serif;
+  font-style:italic;
+  font-weight:500;
+  font-size:1.4rem;
+  color:var(--blue);
+  line-height:1;
+}
+.video-meta .tag{
+  display:inline-flex;align-items:center;
+  padding:5px 12px;
+  border-radius:999px;
+  background:rgba(79,124,255,.08);
+  color:var(--blue);
+  font-size:.7rem;
+  font-weight:600;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.video-meta h3{
+  font-size:clamp(1.1rem,2vw,1.5rem);
+  font-weight:700;
+  letter-spacing:-.025em;
+  color:var(--text);
+  flex-basis:100%;
+  margin-top:4px;
+}
+.video-meta p{
+  color:var(--muted);
+  font-size:.94rem;
+  line-height:1.65;
+  margin-top:2px;
+  max-width:600px;
+  flex-basis:100%;
+}
+
+.video-frame{
+  position:relative;
+  width:100%;
+  aspect-ratio:16 / 9;
+  border-radius:var(--radius-lg);
+  overflow:hidden;
+  background:#0a0f1e;
+  box-shadow:
+    0 4px 12px -4px rgba(10,15,30,.06),
+    0 40px 80px -40px rgba(79,124,255,.35);
+  isolation:isolate;
+}
+.video-frame::after{
+  content:"";
+  position:absolute;inset:0;
+  border-radius:inherit;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.1);
+  pointer-events:none;
+}
+.video-frame iframe{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  border:0;display:block;
+}
+
+.videos-pair{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:32px;
+}
+.videos-pair .video-frame{
+  border-radius:var(--radius);
+  box-shadow:
+    0 4px 12px -4px rgba(10,15,30,.06),
+    0 30px 60px -30px rgba(167,139,250,.3);
+}
+
+/* ============ FOUNDER CARD ============ */
+.founder-card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius-xl);
+  padding:clamp(32px,6vw,72px);
+  box-shadow:var(--shadow-md);
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  gap:clamp(32px,6vw,72px);
+  align-items:center;
+  position:relative;
+  overflow:hidden;
+}
+.founder-card::before{
+  content:"";
+  position:absolute;
+  top:-30%;right:-20%;
+  width:60%;aspect-ratio:1;
+  border-radius:50%;
+  background:radial-gradient(circle, rgba(167,139,250,.15), transparent 65%);
+  filter:blur(50px);
+  pointer-events:none;
+}
+.founder-copy h2{
+  font-size:clamp(1.9rem,3.8vw,3rem);
+  margin-bottom:22px;
+  letter-spacing:-.04em;
+}
+.founder-copy p{
+  color:var(--muted);
+  font-size:1rem;
+  line-height:1.75;
+  margin-bottom:16px;
+  max-width:520px;
+}
+.founder-signature{
+  font-family:'Fraunces', serif;
+  font-style:italic;
+  font-weight:400;
+  font-size:1.6rem;
+  color:var(--text);
+  margin-top:32px;
+  padding-top:28px;
+  border-top:1px solid var(--line);
+  display:flex;align-items:center;gap:14px;
+}
+.founder-signature::before{
+  content:"";
+  width:36px;height:1.5px;
+  background:var(--grad-blue-purple);
+  border-radius:2px;
+}
+
+.founder-stats{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+}
+.stat{
+  background:linear-gradient(160deg, #f8faff, #f0f4ff);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:26px 22px;
+  transition:transform .35s, box-shadow .35s, border-color .35s;
+  position:relative;
+  overflow:hidden;
+}
+.stat::before{
+  content:"";
+  position:absolute;
+  top:0;left:0;right:0;height:2px;
+  background:var(--grad-blue-purple);
+  opacity:0;
+  transition:opacity .35s;
+}
+.stat:hover{
+  transform:translateY(-4px);
+  border-color:rgba(79,124,255,.3);
+  box-shadow:0 20px 40px -20px rgba(79,124,255,.3);
+}
+.stat:hover::before{opacity:1}
+.stat b{
+  display:block;
+  font-family:'Fraunces', serif;
+  font-style:italic;
+  font-weight:500;
+  font-size:1.9rem;
+  line-height:1;
+  letter-spacing:-.02em;
+  background:var(--grad-blue-purple);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  margin-bottom:10px;
+}
+.stat small{
+  display:block;
+  font-size:.7rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--muted);
+  font-weight:600;
+}
+
+/* ============ AVELIA PANEL ============ */
+.avelia-panel{
+  background:linear-gradient(160deg, #ffffff, #f8faff);
+  border:1px solid var(--line);
+  border-radius:var(--radius-xl);
+  padding:clamp(32px,6vw,72px);
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:clamp(36px,6vw,72px);
+  align-items:center;
+  box-shadow:var(--shadow-md);
+  position:relative;
+  overflow:hidden;
+}
+.avelia-panel::before{
+  content:"";
+  position:absolute;
+  top:-40%;left:-20%;
+  width:70%;aspect-ratio:1;
+  border-radius:50%;
+  background:radial-gradient(circle, rgba(56,189,248,.12), transparent 65%);
+  filter:blur(60px);
+  pointer-events:none;
+}
+.avelia-panel::after{
+  content:"";
+  position:absolute;
+  bottom:-40%;right:-20%;
+  width:70%;aspect-ratio:1;
+  border-radius:50%;
+  background:radial-gradient(circle, rgba(236,72,153,.10), transparent 65%);
+  filter:blur(60px);
+  pointer-events:none;
+}
+.avelia-copy{position:relative;z-index:1}
+.avelia-copy h2{
+  font-size:clamp(2rem,4.4vw,3.4rem);
+  margin-bottom:20px;
+  letter-spacing:-.045em;
+}
+.avelia-copy > p{
+  color:var(--muted);
+  max-width:500px;
+  margin-bottom:28px;
+  line-height:1.7;
+  font-size:1rem;
+}
+.avelia-list{
+  list-style:none;
+  display:grid;gap:12px;
+  margin-bottom:34px;
+}
+.avelia-list li{
+  display:flex;align-items:center;gap:14px;
+  font-size:.94rem;
+  color:var(--text-2);
+  padding:13px 18px;
+  background:rgba(255,255,255,.7);
+  border:1px solid var(--line);
+  border-radius:14px;
+  transition:border-color .3s, background .3s, transform .3s;
+}
+.avelia-list li:hover{
+  border-color:rgba(79,124,255,.3);
+  background:#fff;
+  transform:translateX(4px);
+  box-shadow:var(--shadow-sm);
+}
+.avelia-list .chk{
+  flex:none;
+  width:22px;height:22px;
+  border-radius:50%;
+  display:grid;place-items:center;
+  background:var(--grad-blue-purple);
+  color:#fff;
+  font-weight:700;
+  font-size:.65rem;
+  box-shadow:0 4px 10px -3px rgba(79,124,255,.5);
+}
+
+/* Browser mock */
+.mock{
+  position:relative;
+  border-radius:var(--radius);
+  overflow:hidden;
+  background:linear-gradient(160deg, #ffffff, #f4f7ff);
+  border:1px solid var(--line-2);
+  box-shadow:
+    0 4px 12px -4px rgba(10,15,30,.06),
+    0 40px 80px -40px rgba(79,124,255,.35);
+  transform:perspective(1400px) rotateY(-6deg) rotateX(3deg);
+  transition:transform .8s cubic-bezier(.2,.8,.2,1);
+  z-index:1;
+}
+.avelia-panel:hover .mock{
+  transform:perspective(1400px) rotateY(0) rotateX(0);
+}
+.mock-bar{
+  display:flex;align-items:center;gap:7px;
+  padding:13px 16px;
+  border-bottom:1px solid var(--line);
+  background:rgba(244,247,255,.7);
+}
+.mock-bar i{
+  width:9px;height:9px;border-radius:50%;
+  background:#d6dae7;
+}
+.mock-bar i:nth-child(1){background:#ff8a80}
+.mock-bar i:nth-child(2){background:#ffd166}
+.mock-bar i:nth-child(3){background:#7ed4a4}
+.mock-bar em{
+  margin-left:12px;flex:1;
+  font-style:normal;
+  font-size:.72rem;
+  color:var(--muted);
+  background:#fff;
+  padding:5px 14px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  letter-spacing:.02em;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  box-shadow:0 1px 2px rgba(10,15,30,.03);
+}
+.mock-body{padding:22px;display:grid;gap:13px}
+.sk{
+  height:10px;border-radius:99px;
+  background:linear-gradient(90deg, rgba(10,15,30,.05), rgba(10,15,30,.12), rgba(10,15,30,.05));
+  background-size:220% 100%;
+  animation:shimmer 2.8s linear infinite;
+}
+.sk.w40{width:40%}.sk.w60{width:60%}.sk.w80{width:80%}.sk.w100{width:100%}.sk.w25{width:25%}
+.sk.hero-sk{
+  height:18px;width:75%;
+  background:linear-gradient(90deg, rgba(79,124,255,.4), rgba(167,139,250,.5), rgba(79,124,255,.4));
+  background-size:220% 100%;
+}
+@keyframes shimmer{to{background-position:-220% 0}}
+.mock-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin-top:6px;
+}
+.mock-grid div{
+  height:54px;border-radius:12px;
+  background:linear-gradient(150deg, rgba(79,124,255,.14), rgba(167,139,250,.10));
+  border:1px solid var(--line);
+  animation:breathe 3.8s ease-in-out infinite;
+}
+.mock-grid div:nth-child(2){animation-delay:.5s}
+.mock-grid div:nth-child(3){animation-delay:1s}
+@keyframes breathe{0%,100%{opacity:.7}50%{opacity:1}}
+
+/* ============ CAPABILITIES ============ */
+.capabilities-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+.cap-card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:32px 28px;
+  transition:transform .4s cubic-bezier(.2,.8,.2,1), border-color .4s, box-shadow .4s;
+  position:relative;
+  overflow:hidden;
+}
+.cap-card::before{
+  content:"";
+  position:absolute;
+  top:0;left:0;right:0;height:2px;
+  background:var(--grad-blue-purple);
+  opacity:0;
+  transition:opacity .4s;
+}
+.cap-card:hover{
+  transform:translateY(-6px);
+  border-color:rgba(79,124,255,.3);
+  box-shadow:0 24px 60px -30px rgba(79,124,255,.4);
+}
+.cap-card:hover::before{opacity:1}
+.cap-num{
+  font-family:'Fraunces', serif;
+  font-style:italic;
+  font-weight:500;
+  font-size:1.6rem;
+  line-height:1;
+  background:var(--grad-blue-purple);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  margin-bottom:20px;
+  display:inline-block;
+}
+.cap-card h3{
+  font-size:1.15rem;
+  margin-bottom:10px;
+  letter-spacing:-.02em;
+  color:var(--text);
+}
+.cap-card p{
+  color:var(--muted);
+  font-size:.92rem;
+  line-height:1.7;
+}
+
+/* ============ CTA ============ */
+.cta{
+  background:linear-gradient(160deg, #ffffff 0%, #f5f8ff 100%);
+  border:1px solid var(--line);
+  border-radius:var(--radius-xl);
+  padding:clamp(56px,9vw,110px) clamp(28px,6vw,80px);
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+  box-shadow:var(--shadow-lg);
+}
+.cta::before{
+  content:"";
+  position:absolute;
+  top:-30%;left:10%;
+  width:80%;aspect-ratio:1;
+  max-width:700px;
+  border-radius:50%;
+  background:radial-gradient(circle, rgba(79,124,255,.14), transparent 60%);
+  filter:blur(70px);
+  pointer-events:none;
+}
+.cta::after{
+  content:"";
+  position:absolute;
+  bottom:-30%;right:10%;
+  width:80%;aspect-ratio:1;
+  max-width:700px;
+  border-radius:50%;
+  background:radial-gradient(circle, rgba(236,72,153,.10), transparent 60%);
+  filter:blur(70px);
+  pointer-events:none;
+}
+.cta > *{position:relative;z-index:1}
+.cta .eyebrow{justify-content:center}
+.cta h2{
+  font-size:clamp(2.2rem,5.5vw,4.4rem);
+  letter-spacing:-.05em;
+  line-height:1.02;
+  margin-bottom:22px;
+}
+.cta p{
+  color:var(--muted);
+  max-width:560px;
+  margin:0 auto 38px;
+  font-size:1.05rem;
+  line-height:1.7;
+}
+.cta-url{
+  display:inline-block;
+  margin-top:32px;
+  padding:8px 20px;
+  border-radius:999px;
+  background:rgba(79,124,255,.08);
+  border:1px solid rgba(79,124,255,.2);
+  color:var(--blue);
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-size:.76rem;
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+
+/* ============ FOOTER ============ */
+footer{
+  border-top:1px solid var(--line);
+  padding:64px 0 34px;
+  margin-top:clamp(72px,10vw,140px);
+  position:relative;
+  z-index:2;
+  background:rgba(255,255,255,.4);
+  backdrop-filter:blur(10px);
+}
+.foot-grid{
+  display:grid;
+  grid-template-columns:1.6fr 1fr 1fr 1fr;
+  gap:36px;
+  padding-bottom:48px;
+  border-bottom:1px solid var(--line);
+}
+.foot-brand p{
+  color:var(--muted);
+  font-size:.9rem;
+  line-height:1.7;
+  margin-top:18px;
+  max-width:320px;
+}
+.foot-col h4{
+  font-size:.7rem;
+  font-weight:700;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--muted);
+  margin-bottom:20px;
+}
+.foot-col a{
+  display:block;
+  color:var(--text-2);
+  font-size:.88rem;
+  padding:6px 0;
+  transition:color .25s, padding-left .25s;
+}
+.foot-col a:hover{
+  color:var(--blue);
+  padding-left:6px;
+}
+.foot-bottom{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  justify-content:space-between;
+  align-items:center;
+  padding-top:32px;
+  color:var(--muted);
+  font-size:.82rem;
+}
+.foot-bottom a{
+  color:var(--blue);
+  font-weight:500;
+}
+.foot-bottom a:hover{text-decoration:underline}
+
+/* ============ REVEAL ============ */
+[data-reveal]{
+  opacity:0;
+  transform:translateY(28px);
+  transition:opacity .9s ease, transform .9s cubic-bezier(.2,.8,.2,1);
+}
+[data-reveal].in{
+  opacity:1;
+  transform:none;
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width:1024px){
+  .founder-card{grid-template-columns:1fr}
+  .avelia-panel{grid-template-columns:1fr}
+  .mock{transform:none}
+  .capabilities-grid{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  .nav-links{display:none}
+  .videos-pair{grid-template-columns:1fr}
+  .capabilities-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .hero-actions .btn{width:100%}
+  .founder-card, .avelia-panel{padding:32px 24px}
+  .cta{padding:52px 24px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    animation:none!important;
+    transition:none!important;
+  }
+  [data-reveal]{opacity:1;transform:none}
+  .hero-logo{animation:none}
+  .hero-logo img{animation:none}
+}
+</style>
+</head>
+
+<body>
+
+<!-- Floating clouds -->
+<div class="clouds" aria-hidden="true">
+  <div class="cloud c1"></div>
+  <div class="cloud c2"></div>
+  <div class="cloud c3"></div>
+  <div class="cloud c4"></div>
+  <div class="cloud c5"></div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="https://taqi.ddns.net/lyramoon/" class="brand" aria-label="LYRAMOON STUDIO home">
+      <span class="brand-logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZ5mRlP5Cv_bDLc_uIgiwYZpU4PNnyW2lJxIoceHXEw&s=10"
+             alt="LYRAMOON STUDIO" width="42" height="42" loading="eager" decoding="async">
+      </span>
+      <span class="brand-text">
+        <b>LYRAMOON</b>
+        <small>Studio</small>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#videos">Videos</a>
+      <a href="#avelia">AVELIA</a>
+      <a href="#founder">Founder</a>
+      <a href="#capabilities">Capabilities</a>
+    </nav>
+    <a href="https://avelia.oneapp.dev" target="_blank" rel="noopener" class="nav-cta">
+      Launch AVELIA
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap">
+      <!-- Circular hero logo -->
+      <div class="hero-logo-wrap" data-reveal>
+        <div class="hero-logo">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZ5mRlP5Cv_bDLc_uIgiwYZpU4PNnyW2lJxIoceHXEw&s=10"
+               alt="LYRAMOON STUDIO logo" width="148" height="148" loading="eager" decoding="async">
+        </div>
+      </div>
+
+      <div class="hero-badge" data-reveal>
+        <span class="dot" aria-hidden="true"></span>
+        Independent Studio · Created by Muhammad Taqi
+      </div>
+
+      <h1 data-reveal>
+        <span class="line">LYRAMOON</span>
+        <span class="line grad-text serif">Studio</span>
+      </h1>
+
+      <p class="hero-sub" data-reveal>
+        A small studio with big ambitions — building <strong>AI tools</strong>,
+        <strong>websites</strong>, and <strong>games</strong> that anyone can create with.
+        Home of <strong>AVELIA</strong>, the all-in-one creation platform.
+      </p>
+
+      <div class="hero-actions" data-reveal>
+        <a href="https://avelia.oneapp.dev" target="_blank" rel="noopener" class="btn btn-primary">
+          Launch AVELIA
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="https://taqi.oneapp.dev" target="_blank" rel="noopener" class="btn btn-ghost">
+          Play Games
+        </a>
+      </div>
+
+      <div class="hero-meta" data-reveal>
+        <span>AI Creator</span>
+        <span>Website Builder</span>
+        <span>Game Builder</span>
+        <span>Software Compare</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>LYRAMOON STUDIO</span><span>AI BUILDER</span><span>WEB CREATOR</span><span>GAME ENGINE</span>
+      <span>SOFTWARE COMPARE</span><span>3D GAMES</span><span>STICKMAN GAMES</span><span>AVELIA</span>
+      <span>LYRAMOON STUDIO</span><span>AI BUILDER</span><span>WEB CREATOR</span><span>GAME ENGINE</span>
+      <span>SOFTWARE COMPARE</span><span>3D GAMES</span><span>STICKMAN GAMES</span><span>AVELIA</span>
+    </div>
+  </div>
+
+  <!-- ============ VIDEOS ============ -->
+  <section class="pad" id="videos">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Watch AVELIA in action</span>
+        <h2>Three tutorials.<br><span class="serif grad-text">Every capability</span> of the platform.</h2>
+        <p>
+          From creating your own AI to publishing 3D games — each tutorial walks
+          through a real build on AVELIA, taught by Muhammad Taqi.
+        </p>
+      </div>
+
+      <!-- Featured video: AI Creator -->
+      <article class="videos-featured" data-reveal>
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube.com/embed/udoKOFqOkHs"
+            title="AVELIA — Create Your Own AI Like ChatGPT"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="video-meta">
+          <span class="num">01</span>
+          <span class="tag">AI Creator</span>
+          <h3>Create Your Own AI Like ChatGPT</h3>
+          <p>A complete walkthrough of building, training, and deploying a custom AI assistant on AVELIA — no code required.</p>
+        </div>
+      </article>
+
+      <!-- Two smaller videos -->
+      <div class="videos-pair">
+        <article data-reveal>
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/bGZaBZQvtlg"
+              title="AVELIA Game Builder — How to Make a Game Without Code"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="video-meta">
+            <span class="num">02</span>
+            <span class="tag">Game Builder</span>
+            <h3>AVELIA Game Builder</h3>
+            <p>Design a full 3D or Stickman game with the visual editor.</p>
+          </div>
+        </article>
+
+        <article data-reveal>
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/9XFS_HqIem4"
+              title="AVELIA Compare Software — Compare Software Side by Side"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="video-meta">
+            <span class="num">03</span>
+            <span class="tag">Software Compare</span>
+            <h3>AVELIA Software Compare</h3>
+            <p>Compare tools side by side before you install anything.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AVELIA ============ -->
+  <section class="pad" id="avelia">
+    <div class="wrap">
+      <div class="avelia-panel" data-reveal>
+        <div class="avelia-copy">
+          <span class="eyebrow">Flagship Platform</span>
+          <h2>Meet <span class="serif grad-text">AVELIA</span>.</h2>
+          <p>
+            AVELIA is the all-in-one creation studio where ideas become working products.
+            Design your own AI assistant, generate a full website, publish projects, and
+            compare software side by side — no complicated setup.
+          </p>
+          <ul class="avelia-list">
+            <li><span class="chk">✓</span>Create your own AI like ChatGPT</li>
+            <li><span class="chk">✓</span>Build &amp; publish websites instantly</li>
+            <li><span class="chk">✓</span>Compare software before you install</li>
+            <li><span class="chk">✓</span>3D &amp; Stickman game builder</li>
+          </ul>
+          <a href="https://avelia.oneapp.dev" target="_blank" rel="noopener" class="btn btn-primary">
+            Open avelia.oneapp.dev
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="mock" role="img" aria-label="Preview of AVELIA">
+          <div class="mock-bar">
+            <i></i><i></i><i></i>
+            <em>https://avelia.oneapp.dev</em>
+          </div>
+          <div class="mock-body">
+            <div class="sk hero-sk"></div>
+            <div class="sk w80"></div>
+            <div class="sk w60"></div>
+            <div class="mock-grid"><div></div><div></div><div></div></div>
+            <div class="sk w40"></div>
+            <div class="sk w100"></div>
+            <div class="sk w25"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOUNDER ============ -->
+  <section class="pad" id="founder">
+    <div class="wrap">
+      <div class="founder-card" data-reveal>
+        <div class="founder-copy">
+          <span class="eyebrow">The Founder</span>
+          <h2>Built by <span class="serif grad-text">Muhammad Taqi</span>, line by line.</h2>
+          <p>
+            LYRAMOON STUDIO is a solo studio — designed, coded, and shipped by
+            Muhammad Taqi. From the first sketch of AVELIA to every 3D game
+            published, the studio moves at the pace of a single creator who
+            cares about craft.
+          </p>
+          <p>
+            Full-stack web, AI, software, and app development — with a passion for
+            building tools that let anyone create their own AI, website, or game.
+          </p>
+          <div class="founder-signature">Muhammad Taqi</div>
+        </div>
+
+        <div class="founder-stats">
+          <div class="stat">
+            <b>AVELIA</b>
+            <small>Flagship Platform</small>
+          </div>
+          <div class="stat">
+            <b>AI</b>
+            <small>Build &amp; Train</small>
+          </div>
+          <div class="stat">
+            <b>3D</b>
+            <small>Game Engine</small>
+          </div>
+          <div class="stat">
+            <b>∞</b>
+            <small>Creativity</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPABILITIES ============ -->
+  <section class="pad" id="capabilities">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">What the studio builds</span>
+        <h2>Six <span class="serif grad-text">capabilities</span>,<br>one studio.</h2>
+        <p>
+          Every part of LYRAMOON STUDIO is designed to shorten the distance
+          between an idea and a working product.
+        </p>
+      </div>
+
+      <div class="capabilities-grid">
+        <article class="cap-card" data-reveal>
+          <div class="cap-num">01</div>
+          <h3>AI Creator</h3>
+          <p>Design and deploy your own AI assistant — custom personality, custom knowledge, ready in minutes.</p>
+        </article>
+
+        <article class="cap-card" data-reveal>
+          <div class="cap-num">02</div>
+          <h3>Website Builder</h3>
+          <p>Generate clean, responsive websites and publish them live without touching a single line of code.</p>
+        </article>
+
+        <article class="cap-card" data-reveal>
+          <div class="cap-num">03</div>
+          <h3>Game Builder</h3>
+          <p>Create 3D and Stickman games with a visual editor, then publish instantly to the games portal.</p>
+        </article>
+
+        <article class="cap-card" data-reveal>
+          <div class="cap-num">04</div>
+          <h3>Software Compare</h3>
+          <p>Compare tools side by side — features, size, performance — before you commit to anything.</p>
+        </article>
+
+        <article class="cap-card" data-reveal>
+          <div class="cap-num">05</div>
+          <h3>Publish Projects</h3>
+          <p>Ship your work to a live URL and share it with the world — your portfolio, your rules.</p>
+        </article>
+
+        <article class="cap-card" data-reveal>
+          <div class="cap-num">06</div>
+          <h3>Fast &amp; Free</h3>
+          <p>No downloads, no setup fees. AVELIA runs entirely in your browser — open and start building.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="pad">
+    <div class="wrap">
+      <div class="cta" data-reveal>
+        <span class="eyebrow">Ready when you are</span>
+        <h2>Start building on <span class="serif grad-text">AVELIA</span>.</h2>
+        <p>
+          Create AI, websites and games with LYRAMOON STUDIO — then publish them live.
+          It takes less than a minute to begin.
+        </p>
+        <a href="https://avelia.oneapp.dev" target="_blank" rel="noopener" class="btn btn-primary">
+          Launch AVELIA Now
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <div><span class="cta-url">avelia.oneapp.dev</span></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="https://taqi.ddns.net/lyramoon/" class="brand" aria-label="LYRAMOON STUDIO home">
+          <span class="brand-logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZ5mRlP5Cv_bDLc_uIgiwYZpU4PNnyW2lJxIoceHXEw&s=10"
+                 alt="LYRAMOON STUDIO" width="42" height="42" loading="lazy" decoding="async">
+          </span>
+          <span class="brand-text">
+            <b>LYRAMOON</b>
+            <small>Studio</small>
+          </span>
+        </a>
+        <p>
+          Independent creation studio building AI tools, websites and games —
+          created and led by Muhammad Taqi. Parent studio of AVELIA.
+        </p>
+      </div>
+
+      <nav class="foot-col" aria-label="Platform">
+        <h4>Platform</h4>
+        <a href="https://avelia.oneapp.dev" target="_blank" rel="noopener">AVELIA</a>
+        <a href="https://taqi.oneapp.dev" target="_blank" rel="noopener">Games Portal</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#videos">Videos</a>
+      </nav>
+
+      <nav class="foot-col" aria-label="Studio">
+        <h4>Studio</h4>
+        <a href="index">Muhammad Taqi</a>
+        <a href="https://www.youtube.com/@LYRAMOON-STUDIO" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.youtube.com/@AVELIA.S" target="_blank" rel="noopener">AVELIA YouTube</a>
+        <a href="https://huggingface.co/MUSTJAB-KING" target="_blank" rel="noopener">Hugging Face</a>
+      </nav>
+
+      <nav class="foot-col" aria-label="Site">
+        <h4>Site</h4>
+        <a href="https://taqi.ddns.net/lyramoon/">Home</a>
+        <a href="https://taqi.ddns.net/lyramoon/sitemap.xml">Sitemap</a>
+        <a href="https://taqi.ddns.net/lyramoon/robots.txt">robots.txt</a>
+      </nav>
+    </div>
+
+    <div class="foot-bottom">
+      <span>© 2026 LYRAMOON STUDIO · Created by <a href="index">Muhammad Taqi</a></span>
+      <span>Powered by <a href="https://avelia.oneapp.dev" target="_blank" rel="noopener">AVELIA</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* Nav shadow on scroll */
+const nav = document.querySelector('.nav');
+addEventListener('scroll', () => {
+  if (scrollY > 20) {
+    nav.style.background = 'rgba(251,252,255,.92)';
+    nav.style.boxShadow = '0 4px 20px -8px rgba(10,15,30,.08)';
+  } else {
+    nav.style.background = 'rgba(251,252,255,.72)';
+    nav.style.boxShadow = 'none';
+  }
+}, { passive: true });
+
+/* Scroll reveal */
+const io = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      entry.target.style.transitionDelay = (i % 4) * 80 + 'ms';
+      entry.target.classList.add('in');
+      io.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+
+document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
