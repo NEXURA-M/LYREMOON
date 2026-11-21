@@ -1,10 +1,9 @@
 # robots.txt for LYRAMOON STUDIO
-# https://taqi.ddns.net/lyramoon/
+# https://lyremoon.avelia.duckdns.org/
 
 User-agent: *
 Allow: /
 
-# ---- Major search engines ----
 User-agent: Googlebot
 Allow: /
 
@@ -23,55 +22,19 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-User-agent: Baiduspider
-Allow: /
-
-User-agent: YandexBot
-Allow: /
-
-User-agent: Sogou
-Allow: /
-
-# ---- Social / Preview bots ----
 User-agent: Twitterbot
 Allow: /
 
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: LinkedInBot
-Allow: /
-
-User-agent: WhatsApp
-Allow: /
-
-User-agent: TelegramBot
-Allow: /
-
-User-agent: Discordbot
-Allow: /
-
-# ---- AI crawlers ----
 User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ClaudeBot
 Allow: /
 
-User-agent: anthropic-ai
-Allow: /
-
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
-# ---- Sitemap ----
-Sitemap: https://taqi.ddns.net/lyramoon/sitemap.xml
+Sitemap: https://lyremoon.avelia.duckdns.org/sitemap.xml
